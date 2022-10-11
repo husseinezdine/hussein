@@ -2,7 +2,7 @@ name: "testpipeline"
 on:
   push:
     branches:
-      - "main"
+      - "master"
 jobs:
   first-job:
     name: "testing"
