@@ -1,0 +1,13 @@
+name: "testpipeline"
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  first-job:
+    name: "fuck you"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "first step"
+      - run: npm run build
+        
