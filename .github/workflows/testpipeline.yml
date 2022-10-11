@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "first step"
-      - run: npm run build
+        run: npm run build
